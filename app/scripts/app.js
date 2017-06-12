@@ -13,11 +13,6 @@
             templateUrl: '/templates/home.html'
         })
         
-            .state('room', {
-            url: '/room',
-            controller: 'RoomCtrl as room',
-            templateUrl: '/templates/room.html'
-        });
     }
     angular
         .module('blocChat', ['ui.router', 'firebase'])
