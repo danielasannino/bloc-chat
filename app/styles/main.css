@@ -16,14 +16,15 @@ body {
     background-color: white;
     min-height: 100%;
     padding-bottom: 200px;
+    position: absolute;
 }
 
 /*Sidebar*/
 
 .sidebar {
-    position: relative;
-    padding: 0.5rem;
+    position: fixed;
     background-color: lightgray;
+    width: 100%;
     z-index: 1;
 }
 
@@ -38,6 +39,7 @@ body {
 
 .sidebar-header .new-room {
     display: inline;
+    width: 20px;
     margin: 0 5px;
 }
 
